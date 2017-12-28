@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Header, Segment, Divider, Grid, Image } from 'semantic-ui-react';
 import ReactMarkDown from 'react-markdown';
 import axios from 'axios';
-import dpsLogo from '../images/dpsLogo.svg';
+import beerIcon from '../images/beerIcon.png';
 
 class Home extends Component {
   state = { assignmentMarkdown: '' };
@@ -21,8 +21,10 @@ class Home extends Component {
     return(
       <Segment basic>
         <Segment basic textAlign='center'>
-          <Image style={styles.centered} size='tiny' src={dpsLogo} alt='DevPoint Studios Logo' />
-          <Header as='h1' style={styles.header}>DevPoint Studios React Assessment</Header>
+          <Image style={styles.centered} size='tiny' src={beerIcon} alt='DevPoint Studios Logo' />
+          <Header as='h1' style={styles.header}>Beer</Header>
+          <Header as='h3' style={styles.header}>Without beer, life would be a mistake.</Header>
+          <Header as='h5' style={styles.header}>-Friederich Nietzsche</Header>
         </Segment>
         <Grid>
           <Grid.Column computer={8} tablet={8} mobile={16}>
@@ -31,7 +33,7 @@ class Home extends Component {
                 as='h1'
                 textAlign='center'
                 style={styles.header}>
-                  Assessment Details:
+                  Beer Spotlight:
               </Header>
               <Divider />
               <ReactMarkDown source={this.state.assignmentMarkdown} />
@@ -43,7 +45,7 @@ class Home extends Component {
                 as='h1'
                 textAlign='center'
                 style={styles.header}>
-                  Assessment API Endpoints:
+                  Breweries:
               </Header>
               <Divider />
               <iframe

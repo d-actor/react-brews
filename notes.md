@@ -1,4 +1,4 @@
-12/24 started project. cloned github starter and got registered on brewerydb for API key. 
+12/24 started project. cloned github starter and created account on brewerydb for API key. 
 
 12/25-26 played with postman/API explorer on BreweryDB's site, messed with get request params.
 
