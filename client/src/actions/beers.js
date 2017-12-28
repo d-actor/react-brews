@@ -7,7 +7,7 @@ const setBeers = (beers) => {
 
 export const fetchBeers = () => {
   return dispatch => {
-    axios.get('/api/beers?styleId=30')
+    axios.get('/api/brewery_db.beers.all')
       .then( res => {
         dispatch(setBeers(res.data))
         console.log(res.data);
