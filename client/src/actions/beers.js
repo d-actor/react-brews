@@ -9,7 +9,8 @@ export const fetchBeers = () => {
   return dispatch => {
     axios.get('/api/beers?styleId=30')
       .then( res => {
-        dispatch(setBeers(res.data));
+        dispatch(setBeers(res.data))
+        console.log(res.data);
       })
       .catch( err => {
         dispatch(setFlash('Error fetching beers.'))

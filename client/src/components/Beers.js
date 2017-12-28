@@ -6,6 +6,7 @@ import {
   Card,
   Grid,
 } from 'semantic-ui-react';
+import { fetchBeers } from '../actions/beers'
 import { connect } from 'react-redux';
 
 class Beers extends React.Component {
