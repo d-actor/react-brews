@@ -28,11 +28,11 @@ class ApplicationController < ActionController::API
   def brew_client
     @brewery_db ||= BreweryDB::Client.new do |config|
       config.logger = Rails.logger
-      config.api_key = ENV['BREWERYDB_API_KEY']
+      config.api_key = ENV['4af975a27bc8afbf932b88f8f0c23929']
     end
   end
 
-  def set_page
+  def set_pages
     @page = params[:page] || 1
   end
 end
