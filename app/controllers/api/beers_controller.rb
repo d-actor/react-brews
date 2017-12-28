@@ -4,7 +4,7 @@ class Api::BeersController < ApplicationController
   # brewery_db.beers.random
 
   def all
-    send_response(brew_client.beers.all(styleId: 30, p: @page))
+    send_response(brew_client.beers.all(p: @page))
   end
 
   def by_name

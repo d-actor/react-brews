@@ -19,7 +19,7 @@ class Beers extends React.Component {
   }
 
   allIPAs = () => {
-    axios.get('https://api.brewerydb.com/v2/beers?styleId=30&key=4af975a27bc8afbf932b88f8f0c23929&format=json')
+    axios.get('api/all_beers')
       .then( res => res.json() )
       .then( beers => this.setState({ beers }) )
   }
