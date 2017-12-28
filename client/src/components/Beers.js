@@ -4,8 +4,9 @@ import {
   Segment,
   Container,
   Card,
-  Image,
+  Grid,
 } from 'semantic-ui-react';
+import { connect } from 'react-redux';
 
 class Beers extends React.Component {
 
@@ -13,10 +14,37 @@ class Beers extends React.Component {
     this.props.dispatch(fetchBeers());
   }
 
+  beerStats = (beer) => {
+    return(
+      <Grid centered>
+        <Grid.Row>
+          <Grid.Column width={8} style={{ textAlign: 'center'}}>
+            ABV: {beer.abv}
+          </Grid.Column>
+          <Grid.Column width={8} style={{ textAlign: 'center'}}>
+            IBUs: {beer.ibu}
+          </Grid.Column>
+        </Grid.Row>
+      </Grid>
+    )
+  }
+
   displayBeers = () => {
     return this.props.beers.map( beer => {
       return(
-
+        <Card>
+          <Card.Content>
+            <Card.Header>
+              {beer.nameDisplay}
+            </Card.Header>
+            <Card.Description>
+              {beer.description}
+            </Card.Description>
+          </Card.Content>
+          <Card.Content extra>
+            { this.beerStats(beer)}
+          </Card.Content>  
+        </Card>
       )
     })
   }
@@ -26,11 +54,19 @@ class Beers extends React.Component {
       <Container>
         <Segment basic>
           <Header as='h1' inverted>Beer. It's Good For You.</Header>
-          <
+          <Card.Group stackable textAlign='center' itemsPerRow={3}>
+            { this.displayBeers() }
+          </Card.Group>
         </Segment>
       </Container>
-    )
+    );
   }
 }
 
-export default Beers;
+const mapStateToProps = (state) => {
+  return{
+    beers: state.beers,
+  }
+}
+
+export default connect(mapStateToProps)(Beers);
