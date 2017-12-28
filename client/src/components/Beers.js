@@ -6,28 +6,37 @@ import {
   Card,
   Grid,
 } from 'semantic-ui-react';
-import { fetchBeers } from '../actions/beers'
 import { connect } from 'react-redux';
 import axios from 'axios';
 
 class Beers extends React.Component {
-  state = { beers: [] }
+  state = { beers: [], page: 1 }
 
   // no redux 
-  componentDidMount() {
-    this.allIPAs();
+  // componentDidMount() {
+  //   this.allIPAs();
+  // }
+
+  // allIPAs = () => {
+  //   axios.get('api/all_beers')
+  //     .then( res => res.json() )
+  //     .then( beers => this.setState({ beers }) )
+  // }
+  
+
+  componentWillMount() {
+    this.fetchBeers(this.props);
   }
 
-  allIPAs = () => {
-    axios.get('api/all_beers')
-      .then( res => res.json() )
-      .then( beers => this.setState({ beers }) )
+  fetchBeers = (props) => {
+    axios.get('/api/all_beers?page=1')
+      .then( res => {
+        console.log(res.data)
+      })
+      .catch( err => {
+        console.log(err)
+    });
   }
-  
-  // using redux
-  // componentDidMount() {
-  //   this.props.dispatch(fetchBeers());
-  // }
 
   beerStats = (beer) => {
     return(
