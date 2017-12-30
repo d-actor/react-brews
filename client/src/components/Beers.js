@@ -29,9 +29,10 @@ class Beers extends React.Component {
   }
 
   fetchBeers = (props) => {
-    axios.get('/api/all_beers?page=1')
+    axios.get(`/api/all_beers`)
       .then( res => {
         console.log(res.data)
+        this.setState(res.data)
       })
       .catch( err => {
         console.log(err)

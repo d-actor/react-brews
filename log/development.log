@@ -3835,3 +3835,175 @@ Completed 500 Internal Server Error in 257ms
 BreweryDB::BadRequest (Status => 400. Error message => The data passed to this method was invalid):
   
 app/controllers/api/beers_controller.rb:7:in `all'
+Started GET "/api/all_beers?page=1" for 127.0.0.1 at 2017-12-28 16:13:27 -0700
+Processing by Api::BeersController#all as HTML
+  Parameters: {"page"=>"1"}
+get http://api.brewerydb.com/v2/beers?key=4af975a27bc8afbf932b88f8f0c23929&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+Completed 500 Internal Server Error in 416ms
+
+
+  
+BreweryDB::BadRequest (Status => 400. Error message => The data passed to this method was invalid):
+  
+app/controllers/api/beers_controller.rb:7:in `all'
+Started GET "/api/all_beers?page=1" for 127.0.0.1 at 2017-12-28 16:14:21 -0700
+Processing by Api::BeersController#all as HTML
+  Parameters: {"page"=>"1"}
+get http://api.brewerydb.com/v2/beers?key=4af975a27bc8afbf932b88f8f0c23929&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+Completed 500 Internal Server Error in 466ms
+
+
+  
+BreweryDB::BadRequest (Status => 400. Error message => The data passed to this method was invalid):
+  
+app/controllers/api/beers_controller.rb:7:in `all'
+Started GET "/api/all_beers?page=1" for 127.0.0.1 at 2017-12-28 16:14:38 -0700
+Processing by Api::BeersController#all as HTML
+  Parameters: {"page"=>"1"}
+get http://api.brewerydb.com/v2/beers?key=4af975a27bc8afbf932b88f8f0c23929&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+Completed 500 Internal Server Error in 402ms
+
+
+  
+BreweryDB::BadRequest (Status => 400. Error message => The data passed to this method was invalid):
+  
+app/controllers/api/beers_controller.rb:7:in `all'
+Started GET "/api/all_beers" for 127.0.0.1 at 2017-12-28 16:15:13 -0700
+Processing by Api::BeersController#all as HTML
+get http://api.brewerydb.com/v2/beers?key=4af975a27bc8afbf932b88f8f0c23929&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+Completed 500 Internal Server Error in 342ms
+
+
+  
+BreweryDB::BadRequest (Status => 400. Error message => The data passed to this method was invalid):
+  
+app/controllers/api/beers_controller.rb:7:in `all'
+Started GET "/api/all_beers" for 127.0.0.1 at 2017-12-28 16:15:26 -0700
+Processing by Api::BeersController#all as HTML
+get http://api.brewerydb.com/v2/beers?key=4af975a27bc8afbf932b88f8f0c23929&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+Completed 500 Internal Server Error in 233ms
+
+
+  
+BreweryDB::BadRequest (Status => 400. Error message => The data passed to this method was invalid):
+  
+app/controllers/api/beers_controller.rb:7:in `all'
+Started GET "/api/all_beers" for 127.0.0.1 at 2017-12-28 16:31:50 -0700
+Processing by Api::BeersController#all as HTML
+get http://api.brewerydb.com/v2/beers?key=4af975a27bc8afbf932b88f8f0c23929&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+Completed 500 Internal Server Error in 557ms
+
+
+  
+BreweryDB::BadRequest (Status => 400. Error message => The data passed to this method was invalid):
+  
+app/controllers/api/beers_controller.rb:7:in `all'
+Started GET "/api/all_beers" for 127.0.0.1 at 2017-12-28 16:33:42 -0700
+Processing by Api::BeersController#all as HTML
+get http://api.brewerydb.com/v2/beers?key=4af975a27bc8afbf932b88f8f0c23929&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+Completed 500 Internal Server Error in 568ms
+
+
+  
+BreweryDB::BadRequest (Status => 400. Error message => The data passed to this method was invalid):
+  
+app/controllers/api/beers_controller.rb:7:in `all'
+Started GET "/api/assignment_details" for 127.0.0.1 at 2017-12-29 23:16:39 -0700
+Started GET "/rails/info/routes" for ::1 at 2017-12-29 23:16:39 -0700
+Processing by Api::AssignmentDetailsController#show as HTML
+Completed 200 OK in 536ms (Views: 1.1ms)
+
+
+Processing by Rails::InfoController#routes as HTML
+  Rendering /Users/danielactor/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /Users/danielactor/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.1.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [13 times] (32.2ms)
+  Rendered /Users/danielactor/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.1.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (11.8ms)
+  Rendered /Users/danielactor/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application (58.4ms)
+Completed 200 OK in 96ms (Views: 85.3ms)
+
+
+Started GET "/api/all_beers" for 127.0.0.1 at 2017-12-29 23:17:02 -0700
+Processing by Api::BeersController#all as HTML
+get http://api.brewerydb.com/v2/beers?key=4af975a27bc8afbf932b88f8f0c23929&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+Completed 500 Internal Server Error in 738ms
+
+
+  
+BreweryDB::BadRequest (Status => 400. Error message => The data passed to this method was invalid):
+  
+app/controllers/api/beers_controller.rb:7:in `all'
+Started GET "/api/all_beers" for 127.0.0.1 at 2017-12-29 23:19:19 -0700
+Processing by Api::BeersController#all as HTML
+get http://api.brewerydb.com/v2/beers?key=4af975a27bc8afbf932b88f8f0c23929&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+Completed 500 Internal Server Error in 385ms
+
+
+  
+BreweryDB::BadRequest (Status => 400. Error message => The data passed to this method was invalid):
+  
+app/controllers/api/beers_controller.rb:7:in `all'
+Started GET "/" for ::1 at 2017-12-29 23:19:26 -0700
+Processing by Rails::WelcomeController#index as HTML
+Started GET "/" for ::1 at 2017-12-29 23:19:35 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/danielactor/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/danielactor/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb (5.1ms)
+Completed 200 OK in 722ms (Views: 618.9ms)
+
+
+  Rendering /Users/danielactor/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/danielactor/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.2/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 923ms (Views: 615.0ms)
+
+
+Started GET "/favicon.ico" for ::1 at 2017-12-29 23:19:37 -0700
+Processing by StaticController#index as 
+  Parameters: {"other"=>"favicon"}
+Completed 500 Internal Server Error in 183ms
+
+
+  
+ActionView::MissingTemplate (Missing template Users/danielactor/Desktop/DPL/react-assessment/public/index.html with {:locale=>[:en], :formats=>[:html, :text, :js, :css, :ics, :csv, :vcf, :png, :jpeg, :gif, :bmp, :tiff, :svg, :mpeg, :xml, :rss, :atom, :yaml, :multipart_form, :url_encoded_form, :json, :pdf, :zip, :gzip], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby]}. Searched in:
+  * "/Users/danielactor/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.2/lib/rails/templates"
+  * "/Users/danielactor/Desktop/DPL/react-assessment"
+  * "/"
+):
+  
+app/controllers/static_controller.rb:5:in `index'
+Started GET "/api/all_beers" for 127.0.0.1 at 2017-12-29 23:21:00 -0700
+Processing by Api::BeersController#all as HTML
+get http://api.brewerydb.com/v2/beers?key=4af975a27bc8afbf932b88f8f0c23929&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+Completed 500 Internal Server Error in 420ms
+
+
+  
+BreweryDB::BadRequest (Status => 400. Error message => The data passed to this method was invalid):
+  
+app/controllers/api/beers_controller.rb:7:in `all'
+Started GET "/api/all_beers" for 127.0.0.1 at 2017-12-29 23:25:10 -0700
+Processing by Api::BeersController#all as HTML
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sat, 30 Dec 2017 06:25:10 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18895"
+connection: "Close"
+Completed 200 OK in 959ms (Views: 68.0ms)
+
+

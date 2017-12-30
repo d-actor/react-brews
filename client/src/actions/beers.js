@@ -7,7 +7,7 @@ const setBeers = (beers) => {
 
 export const fetchBeers = () => {
   return dispatch => {
-    axios.get('/api/brewery_db.beers.all')
+    axios.get(`/api/all_beers`)
       .then( res => {
         dispatch(setBeers(res.data))
         console.log(res.data);
