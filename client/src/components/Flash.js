@@ -14,6 +14,7 @@ const Flash = ({ flash, dispatch }) => {
   if(flash.message) {
     return(
       <div
+        color='white'
         id='alert'
         className={`alert alert-${flash.msgType}`}
         style={{ width: '90%', margin: '0 auto'}}
