@@ -10,7 +10,6 @@ import { connect } from 'react-redux';
 import { fetchBeers } from '../actions/beers';
 
 class Beers extends React.Component {
-  state = { page: 1, hasMore: true }
 
   componentDidMount() {
     this.props.dispatch(fetchBeers());
@@ -21,7 +20,7 @@ class Beers extends React.Component {
       <Grid centered>
         <Grid.Row>
           <Grid.Column width={8} style={{ textAlign: 'center'}}>
-            ABV: {beer.abv}
+            ABV: {beer.abv} %
           </Grid.Column>
           <Grid.Column width={8} style={{ textAlign: 'center'}}>
             IBUs: {beer.ibu}
@@ -38,6 +37,8 @@ class Beers extends React.Component {
           <Card.Content>
             <Card.Header>
               {beer.name}
+              <hr />
+              {beer.style.name}
             </Card.Header>
             <Card.Description>
               {beer.description}
