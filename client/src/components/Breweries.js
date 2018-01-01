@@ -9,6 +9,7 @@ import {
 } from 'semantic-ui-react';
 import { connect } from 'react-redux';
 import { fetchBreweries } from '../actions/breweries';
+import noImage from '../images/noImage.png';
 
 class Breweries extends React.Component {
   
@@ -16,12 +17,13 @@ class Breweries extends React.Component {
     this.props.dispatch(fetchBreweries());
   }
 
+  // add n/a if/else on this and beers stats
   breweryStats = (brewery) => {
     return(
       <Grid centered>
         <Grid.Row>
           <Grid.Column width={8} style={{ textAlign: 'center' }}>
-            Est. {brewery.established}
+           Est. { brewery.established? brewery.established : 'N/A' }
           </Grid.Column>
           <Grid.Column width={8} style={{ textAlign: 'center' }}>
             Type: {brewery.brand_classification}
@@ -42,8 +44,8 @@ class Breweries extends React.Component {
             </Card.Header>
             <Grid>
               <Grid.Row>
-                <Grid.Column width={8}>
-                  <Image src={ brewery.squareMedium } />
+                <Grid.Column width={16}>
+                  <Image src={ brewery.images? brewery.images.medium : noImage } />
                 </Grid.Column>
               </Grid.Row>
             </Grid>
@@ -52,7 +54,7 @@ class Breweries extends React.Component {
                 {brewery.website}
               </span>
             </Card.Meta>
-            <Card.Description>
+            <Card.Description style={styles.description}>
               {brewery.description}
             </Card.Description>
           </Card.Content>
@@ -75,6 +77,13 @@ class Breweries extends React.Component {
         </Segment>
       </Container>
     );
+  }
+}
+
+const styles = {
+  description: {
+    height: '200px',
+    overflow: 'auto',
   }
 }
 

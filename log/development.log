@@ -6870,3 +6870,1728 @@ connection: "Close"
 Completed 200 OK in 410ms (Views: 23.4ms)
 
 
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 16:15:44 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:15:45 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 1131ms (Views: 21.1ms)
+
+
+Started GET "/api/all_beers" for 127.0.0.1 at 2017-12-31 16:15:59 -0700
+Processing by Api::BeersController#all as HTML
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:15:59 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 1191ms (Views: 26.1ms)
+
+
+Started GET "/rails/info/routes" for ::1 at 2017-12-31 16:16:40 -0700
+Started GET "/api/assignment_details" for 127.0.0.1 at 2017-12-31 16:16:40 -0700
+Processing by Api::AssignmentDetailsController#show as HTML
+Completed 200 OK in 201ms (Views: 1.6ms)
+
+
+Processing by Rails::InfoController#routes as HTML
+  Rendering /Users/danielactor/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /Users/danielactor/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.1.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [13 times] (12.5ms)
+  Rendered /Users/danielactor/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.1.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (507.6ms)
+  Rendered /Users/danielactor/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application (909.5ms)
+Completed 200 OK in 2129ms (Views: 1929.1ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 16:30:08 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:30:08 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 654ms (Views: 26.8ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 16:31:07 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:31:08 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 735ms (Views: 44.2ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 16:31:22 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:31:23 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 416ms (Views: 56.3ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 16:31:45 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:31:45 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 505ms (Views: 12.7ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 16:31:52 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:31:53 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 508ms (Views: 16.1ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 16:32:14 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:32:15 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 580ms (Views: 13.3ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 16:32:25 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:32:25 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 396ms (Views: 25.8ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 16:32:38 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:32:38 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 384ms (Views: 22.2ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 16:33:40 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:33:40 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 477ms (Views: 15.4ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 16:33:51 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:33:51 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 497ms (Views: 16.2ms)
+
+
+Started GET "/[object%20Object]" for 127.0.0.1 at 2017-12-31 16:33:52 -0700
+Processing by StaticController#index as HTML
+  Parameters: {"other"=>"[object Object]"}
+Completed 500 Internal Server Error in 21ms
+
+
+  
+ActionView::MissingTemplate (Missing template Users/danielactor/Desktop/DPL/react-assessment/public/index.html with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby]}. Searched in:
+  * "/Users/danielactor/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.2/lib/rails/templates"
+  * "/Users/danielactor/Desktop/DPL/react-assessment"
+  * "/"
+):
+  
+app/controllers/static_controller.rb:5:in `index'
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 16:34:14 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:34:14 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 506ms (Views: 16.6ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 16:38:54 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:38:54 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 508ms (Views: 35.4ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 16:39:09 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:39:09 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 456ms (Views: 18.4ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 16:40:31 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:40:32 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 480ms (Views: 22.8ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 16:41:01 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:41:01 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 875ms (Views: 29.1ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 16:41:08 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:41:09 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 390ms (Views: 15.6ms)
+
+
+Started GET "/[object%20Object]" for 127.0.0.1 at 2017-12-31 16:41:09 -0700
+Processing by StaticController#index as HTML
+  Parameters: {"other"=>"[object Object]"}
+Completed 500 Internal Server Error in 15ms
+
+
+  
+ActionView::MissingTemplate (Missing template Users/danielactor/Desktop/DPL/react-assessment/public/index.html with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby]}. Searched in:
+  * "/Users/danielactor/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.2/lib/rails/templates"
+  * "/Users/danielactor/Desktop/DPL/react-assessment"
+  * "/"
+):
+  
+app/controllers/static_controller.rb:5:in `index'
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 16:41:12 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:41:12 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 353ms (Views: 21.3ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 16:41:29 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:41:29 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 368ms (Views: 16.5ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 16:41:36 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:41:36 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 422ms (Views: 26.6ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 16:43:07 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:43:07 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 423ms (Views: 10.9ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 16:43:15 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:43:15 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 520ms (Views: 12.3ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 16:44:17 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:44:17 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 466ms (Views: 14.3ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 16:44:33 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:44:33 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 399ms (Views: 22.9ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 16:44:46 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:44:46 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 432ms (Views: 31.2ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 16:45:44 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:45:44 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 422ms (Views: 32.1ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 16:45:48 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:45:48 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 507ms (Views: 13.4ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 16:46:03 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:46:03 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 479ms (Views: 26.5ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 16:46:10 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:46:10 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 582ms (Views: 40.1ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 16:46:13 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:46:14 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 516ms (Views: 14.2ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 16:46:35 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:46:35 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 432ms (Views: 21.2ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 16:46:42 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:46:42 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 463ms (Views: 15.8ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 16:47:36 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:47:36 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 434ms (Views: 20.8ms)
+
+
+Started GET "/api/all_beers" for 127.0.0.1 at 2017-12-31 16:47:46 -0700
+Processing by Api::BeersController#all as HTML
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:47:46 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 745ms (Views: 35.4ms)
+
+
+Started GET "/api/all_beers" for 127.0.0.1 at 2017-12-31 16:48:03 -0700
+Processing by Api::BeersController#all as HTML
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:48:04 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 912ms (Views: 33.2ms)
+
+
+Started GET "/api/all_beers" for 127.0.0.1 at 2017-12-31 16:50:45 -0700
+Processing by Api::BeersController#all as HTML
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:50:45 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 1307ms (Views: 33.9ms)
+
+
+Started GET "/api/all_beers" for 127.0.0.1 at 2017-12-31 16:51:02 -0700
+Processing by Api::BeersController#all as HTML
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:51:02 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 1046ms (Views: 29.1ms)
+
+
+Started GET "/api/all_beers" for 127.0.0.1 at 2017-12-31 16:51:25 -0700
+Processing by Api::BeersController#all as HTML
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:51:25 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 1007ms (Views: 50.2ms)
+
+
+Started GET "/api/all_beers" for 127.0.0.1 at 2017-12-31 16:51:59 -0700
+Processing by Api::BeersController#all as HTML
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:51:59 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 1015ms (Views: 23.9ms)
+
+
+Started GET "/api/all_beers" for 127.0.0.1 at 2017-12-31 16:52:02 -0700
+Processing by Api::BeersController#all as HTML
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:52:02 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 1108ms (Views: 27.1ms)
+
+
+Started GET "/api/all_beers" for 127.0.0.1 at 2017-12-31 16:52:10 -0700
+Processing by Api::BeersController#all as HTML
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:52:10 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 713ms (Views: 25.3ms)
+
+
+Started GET "/api/all_beers" for 127.0.0.1 at 2017-12-31 16:52:17 -0700
+Processing by Api::BeersController#all as HTML
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:52:17 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 999ms (Views: 53.6ms)
+
+
+Started GET "/api/all_beers" for 127.0.0.1 at 2017-12-31 16:52:42 -0700
+Processing by Api::BeersController#all as HTML
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:52:42 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 703ms (Views: 35.8ms)
+
+
+Started GET "/api/all_beers" for 127.0.0.1 at 2017-12-31 16:52:47 -0700
+Processing by Api::BeersController#all as HTML
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:52:47 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 874ms (Views: 24.4ms)
+
+
+Started GET "/api/all_beers" for 127.0.0.1 at 2017-12-31 16:54:31 -0700
+Processing by Api::BeersController#all as HTML
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:54:31 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 944ms (Views: 49.9ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 16:54:38 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:54:38 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 386ms (Views: 15.2ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 16:55:15 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:55:15 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 492ms (Views: 30.3ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 16:56:54 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:56:54 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 478ms (Views: 22.4ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 16:58:58 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:58:58 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 496ms (Views: 25.5ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 16:59:02 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:59:02 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 646ms (Views: 18.2ms)
+
+
+Started GET "/api/all_beers" for 127.0.0.1 at 2017-12-31 16:59:10 -0700
+Processing by Api::BeersController#all as HTML
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Sun, 31 Dec 2017 23:59:10 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 907ms (Views: 24.5ms)
+
+
+Started GET "/api/all_beers" for 127.0.0.1 at 2017-12-31 17:01:35 -0700
+Processing by Api::BeersController#all as HTML
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Mon, 01 Jan 2018 00:01:35 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 841ms (Views: 21.5ms)
+
+
+Started GET "/api/all_beers" for 127.0.0.1 at 2017-12-31 17:01:39 -0700
+Processing by Api::BeersController#all as HTML
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Mon, 01 Jan 2018 00:01:39 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 747ms (Views: 25.0ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 17:01:45 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Mon, 01 Jan 2018 00:01:45 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 386ms (Views: 9.8ms)
+
+
+Started GET "/api/all_beers" for 127.0.0.1 at 2017-12-31 17:01:53 -0700
+Processing by Api::BeersController#all as HTML
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Mon, 01 Jan 2018 00:01:54 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 723ms (Views: 27.2ms)
+
+
+Started GET "/api/all_beers" for 127.0.0.1 at 2017-12-31 17:02:14 -0700
+Processing by Api::BeersController#all as HTML
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Mon, 01 Jan 2018 00:02:14 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 794ms (Views: 21.8ms)
+
+
+Started GET "/api/all_beers" for 127.0.0.1 at 2017-12-31 17:02:35 -0700
+Processing by Api::BeersController#all as HTML
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Mon, 01 Jan 2018 00:02:35 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 865ms (Views: 28.1ms)
+
+
+Started GET "/api/all_beers" for 127.0.0.1 at 2017-12-31 17:02:48 -0700
+Processing by Api::BeersController#all as HTML
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Mon, 01 Jan 2018 00:02:48 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 1331ms (Views: 32.9ms)
+
+
+Started GET "/api/all_beers" for 127.0.0.1 at 2017-12-31 17:02:57 -0700
+Processing by Api::BeersController#all as HTML
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Mon, 01 Jan 2018 00:02:57 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 878ms (Views: 24.0ms)
+
+
+Started GET "/api/all_beers" for 127.0.0.1 at 2017-12-31 17:03:06 -0700
+Processing by Api::BeersController#all as HTML
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Mon, 01 Jan 2018 00:03:06 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 852ms (Views: 21.7ms)
+
+
+Started GET "/api/all_beers" for 127.0.0.1 at 2017-12-31 17:03:12 -0700
+Processing by Api::BeersController#all as HTML
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Mon, 01 Jan 2018 00:03:12 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 787ms (Views: 30.3ms)
+
+
+Started GET "/api/all_beers" for 127.0.0.1 at 2017-12-31 17:03:17 -0700
+Processing by Api::BeersController#all as HTML
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Mon, 01 Jan 2018 00:03:17 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 821ms (Views: 19.7ms)
+
+
+Started GET "/api/all_beers" for 127.0.0.1 at 2017-12-31 17:03:20 -0700
+Processing by Api::BeersController#all as HTML
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Mon, 01 Jan 2018 00:03:20 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 890ms (Views: 23.8ms)
+
+
+Started GET "/api/all_beers" for 127.0.0.1 at 2017-12-31 17:03:29 -0700
+Processing by Api::BeersController#all as HTML
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Mon, 01 Jan 2018 00:03:29 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 800ms (Views: 23.9ms)
+
+
+Started GET "/api/all_beers" for 127.0.0.1 at 2017-12-31 17:03:41 -0700
+Processing by Api::BeersController#all as HTML
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+Started GET "/api/all_beers" for 127.0.0.1 at 2017-12-31 17:03:41 -0700
+Processing by Api::BeersController#all as HTML
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Mon, 01 Jan 2018 00:03:41 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 779ms (Views: 39.3ms)
+
+
+200
+content-type: "application/json"
+date: "Mon, 01 Jan 2018 00:03:41 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 950ms (Views: 21.8ms)
+
+
+Started GET "/api/all_beers" for 127.0.0.1 at 2017-12-31 17:03:51 -0700
+Processing by Api::BeersController#all as HTML
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Mon, 01 Jan 2018 00:03:52 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 933ms (Views: 25.1ms)
+
+
+Started GET "/api/all_beers" for 127.0.0.1 at 2017-12-31 17:04:14 -0700
+Processing by Api::BeersController#all as HTML
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Mon, 01 Jan 2018 00:04:15 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 1283ms (Views: 20.3ms)
+
+
+Started GET "/api/all_beers" for 127.0.0.1 at 2017-12-31 17:04:45 -0700
+Processing by Api::BeersController#all as HTML
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Mon, 01 Jan 2018 00:04:45 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 794ms (Views: 22.0ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 17:04:53 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Mon, 01 Jan 2018 00:04:53 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 496ms (Views: 10.2ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 17:08:04 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Mon, 01 Jan 2018 00:08:04 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 529ms (Views: 14.2ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 17:09:06 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Mon, 01 Jan 2018 00:09:06 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 423ms (Views: 18.1ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 17:09:15 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Mon, 01 Jan 2018 00:09:15 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 464ms (Views: 11.1ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 17:15:34 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Mon, 01 Jan 2018 00:15:34 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 446ms (Views: 18.7ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 17:16:02 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Mon, 01 Jan 2018 00:16:02 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 626ms (Views: 39.1ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 17:16:10 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Mon, 01 Jan 2018 00:16:11 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 397ms (Views: 46.6ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 17:16:37 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Mon, 01 Jan 2018 00:16:37 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 788ms (Views: 21.0ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 17:17:00 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Mon, 01 Jan 2018 00:17:00 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 373ms (Views: 20.5ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 17:17:15 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Mon, 01 Jan 2018 00:17:15 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 417ms (Views: 48.8ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 17:17:27 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Mon, 01 Jan 2018 00:17:27 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 428ms (Views: 14.4ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 17:17:37 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Mon, 01 Jan 2018 00:17:37 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 429ms (Views: 14.1ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 17:17:46 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Mon, 01 Jan 2018 00:17:46 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 445ms (Views: 14.7ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 17:18:22 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Mon, 01 Jan 2018 00:18:22 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 634ms (Views: 15.0ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 17:18:38 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Mon, 01 Jan 2018 00:18:38 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 399ms (Views: 11.5ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 17:18:45 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Mon, 01 Jan 2018 00:18:45 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 387ms (Views: 11.7ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 17:18:51 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Mon, 01 Jan 2018 00:18:51 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 400ms (Views: 11.1ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 17:18:58 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Mon, 01 Jan 2018 00:18:58 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 404ms (Views: 12.8ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 17:19:04 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Mon, 01 Jan 2018 00:19:04 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 488ms (Views: 11.6ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 17:19:10 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Mon, 01 Jan 2018 00:19:10 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 339ms (Views: 10.9ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 17:19:18 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Mon, 01 Jan 2018 00:19:18 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 464ms (Views: 10.9ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 17:19:39 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Mon, 01 Jan 2018 00:19:39 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 397ms (Views: 10.8ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 17:19:46 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Mon, 01 Jan 2018 00:19:46 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 510ms (Views: 9.9ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 17:23:38 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Mon, 01 Jan 2018 00:23:38 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 419ms (Views: 14.7ms)
+
+
+Started GET "/api/all_beers" for 127.0.0.1 at 2017-12-31 17:23:47 -0700
+Processing by Api::BeersController#all as HTML
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Mon, 01 Jan 2018 00:23:47 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 998ms (Views: 87.7ms)
+
+
+Started GET "/api/all_beers" for 127.0.0.1 at 2017-12-31 17:24:02 -0700
+Processing by Api::BeersController#all as HTML
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Mon, 01 Jan 2018 00:24:02 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 1720ms (Views: 24.2ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 17:24:15 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Mon, 01 Jan 2018 00:24:15 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 341ms (Views: 13.0ms)
+
+
+Started GET "/api/all_beers" for 127.0.0.1 at 2017-12-31 17:24:18 -0700
+Processing by Api::BeersController#all as HTML
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Mon, 01 Jan 2018 00:24:18 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 743ms (Views: 24.0ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2017-12-31 17:24:46 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Mon, 01 Jan 2018 00:24:47 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12183"
+connection: "Close"
+Completed 200 OK in 449ms (Views: 13.3ms)
+
+

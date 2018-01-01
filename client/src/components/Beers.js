@@ -5,9 +5,12 @@ import {
   Container,
   Card,
   Grid,
+  Image,
 } from 'semantic-ui-react';
 import { connect } from 'react-redux';
 import { fetchBeers } from '../actions/beers';
+import noImage from '../images/noImage.png';
+
 
 class Beers extends React.Component {
 
@@ -20,10 +23,11 @@ class Beers extends React.Component {
       <Grid centered>
         <Grid.Row>
           <Grid.Column width={8} style={{ textAlign: 'center'}}>
-            ABV: {beer.abv} %
+            ABV: { beer.abv? beer.abv : 'N/A'} 
+            %
           </Grid.Column>
           <Grid.Column width={8} style={{ textAlign: 'center'}}>
-            IBUs: {beer.ibu}
+            IBUs: {beer.ibu? beer.ibu : 'N/A'}
           </Grid.Column>
         </Grid.Row>
       </Grid>
@@ -40,7 +44,14 @@ class Beers extends React.Component {
               <hr />
               {beer.style.name}
             </Card.Header>
-            <Card.Description>
+            <Grid>
+              <Grid.Row>
+                <Grid.Column width={16}>
+                  <Image src={ beer.labels? beer.labels.medium : noImage } />
+                </Grid.Column>
+              </Grid.Row>
+            </Grid>
+            <Card.Description style={styles.description}>
               {beer.description}
             </Card.Description>
           </Card.Content>
@@ -63,6 +74,13 @@ class Beers extends React.Component {
         </Segment>
       </Container>
     );
+  }
+}
+
+const styles = {
+  description: {
+    height: '200px',
+    overflow: 'auto',
   }
 }
 
