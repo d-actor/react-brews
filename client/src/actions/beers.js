@@ -5,11 +5,13 @@ const setBeers = (beers) => {
   return { type: 'SET_BEERS', beers: beers }
 }
 
-export const fetchBeers = () => {
+export const fetchBeers = (page = 1) => {
+  const currentPage = `?page=${page}&per_page=12`
   return dispatch => {
-    axios.get(`/api/all_beers`)
+    axios.get(`/api/all_beers${currentPage}`)
       .then( res => {
         dispatch(setBeers(res.data.entries))
+        page += 1
         console.log(res.data)
       })
       .catch( err => {

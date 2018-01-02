@@ -8595,3 +8595,595 @@ connection: "Close"
 Completed 200 OK in 449ms (Views: 13.3ms)
 
 
+Started GET "/api/all_beers" for 127.0.0.1 at 2017-12-31 17:25:38 -0700
+Processing by Api::BeersController#all as HTML
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Mon, 01 Jan 2018 00:25:38 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 812ms (Views: 29.2ms)
+
+
+Started GET "/rails/info/routes" for ::1 at 2017-12-31 17:25:42 -0700
+Processing by Rails::InfoController#routes as HTML
+Started GET "/api/assignment_details" for 127.0.0.1 at 2017-12-31 17:25:42 -0700
+Processing by Api::AssignmentDetailsController#show as HTML
+Completed 200 OK in 31ms (Views: 0.8ms)
+
+
+  Rendering /Users/danielactor/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /Users/danielactor/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.1.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [13 times] (13.4ms)
+  Rendered /Users/danielactor/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.1.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.7ms)
+  Rendered /Users/danielactor/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application (37.8ms)
+Completed 200 OK in 90ms (Views: 62.9ms)
+
+
+Started GET "/api/all_beers" for 127.0.0.1 at 2018-01-01 19:59:35 -0700
+Processing by Api::BeersController#all as HTML
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Tue, 02 Jan 2018 02:59:36 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 1136ms (Views: 75.2ms)
+
+
+Started GET "/api/all_beers?page=1&per_page=10" for 127.0.0.1 at 2018-01-01 20:00:14 -0700
+Processing by Api::BeersController#all as HTML
+  Parameters: {"page"=>"1", "per_page"=>"10"}
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Tue, 02 Jan 2018 03:00:14 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 960ms (Views: 15.2ms)
+
+
+Started GET "/rails/info/routes" for ::1 at 2018-01-01 20:58:34 -0700
+Processing by Rails::InfoController#routes as HTML
+Started GET "/api/assignment_details" for 127.0.0.1 at 2018-01-01 20:58:34 -0700
+Processing by Api::AssignmentDetailsController#show as HTML
+Completed 200 OK in 32ms (Views: 7.0ms)
+
+
+  Rendering /Users/danielactor/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /Users/danielactor/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.1.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [13 times] (55.9ms)
+  Rendered /Users/danielactor/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.1.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (12.9ms)
+  Rendered /Users/danielactor/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application (126.1ms)
+Completed 200 OK in 224ms (Views: 184.6ms)
+
+
+Started GET "/api/all_beers?page=1&per_page=10" for 127.0.0.1 at 2018-01-01 21:01:00 -0700
+Processing by Api::BeersController#all as HTML
+  Parameters: {"page"=>"1", "per_page"=>"10"}
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Tue, 02 Jan 2018 04:01:00 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 2123ms (Views: 14.9ms)
+
+
+Started GET "/api/all_beers?page=1&per_page=10" for 127.0.0.1 at 2018-01-01 21:02:06 -0700
+Processing by Api::BeersController#all as HTML
+  Parameters: {"page"=>"1", "per_page"=>"10"}
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Tue, 02 Jan 2018 04:02:06 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 963ms (Views: 22.0ms)
+
+
+Started GET "/[object%20Object]" for 127.0.0.1 at 2018-01-01 21:02:09 -0700
+Processing by StaticController#index as HTML
+  Parameters: {"other"=>"[object Object]"}
+Completed 500 Internal Server Error in 17ms
+
+
+  
+ActionView::MissingTemplate (Missing template Users/danielactor/Desktop/DPL/react-assessment/public/index.html with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby]}. Searched in:
+  * "/Users/danielactor/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.2/lib/rails/templates"
+  * "/Users/danielactor/Desktop/DPL/react-assessment"
+  * "/"
+):
+  
+app/controllers/static_controller.rb:5:in `index'
+Started GET "/api/all_beers?page=1&per_page=10" for 127.0.0.1 at 2018-01-01 21:02:11 -0700
+Processing by Api::BeersController#all as HTML
+  Parameters: {"page"=>"1", "per_page"=>"10"}
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Tue, 02 Jan 2018 04:02:11 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 758ms (Views: 7.9ms)
+
+
+Started GET "/[object%20Object]" for 127.0.0.1 at 2018-01-01 21:02:11 -0700
+Processing by StaticController#index as HTML
+  Parameters: {"other"=>"[object Object]"}
+Completed 500 Internal Server Error in 13ms
+
+
+  
+ActionView::MissingTemplate (Missing template Users/danielactor/Desktop/DPL/react-assessment/public/index.html with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby]}. Searched in:
+  * "/Users/danielactor/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.2/lib/rails/templates"
+  * "/Users/danielactor/Desktop/DPL/react-assessment"
+  * "/"
+):
+  
+app/controllers/static_controller.rb:5:in `index'
+Started GET "/api/all_beers?page=1&per_page=10" for 127.0.0.1 at 2018-01-01 21:02:24 -0700
+Processing by Api::BeersController#all as HTML
+  Parameters: {"page"=>"1", "per_page"=>"10"}
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Tue, 02 Jan 2018 04:02:24 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 843ms (Views: 8.7ms)
+
+
+Started GET "/[object%20Object]" for 127.0.0.1 at 2018-01-01 21:02:25 -0700
+Processing by StaticController#index as HTML
+  Parameters: {"other"=>"[object Object]"}
+Completed 500 Internal Server Error in 12ms
+
+
+  
+ActionView::MissingTemplate (Missing template Users/danielactor/Desktop/DPL/react-assessment/public/index.html with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby]}. Searched in:
+  * "/Users/danielactor/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.2/lib/rails/templates"
+  * "/Users/danielactor/Desktop/DPL/react-assessment"
+  * "/"
+):
+  
+app/controllers/static_controller.rb:5:in `index'
+Started GET "/api/all_beers?page=1&per_page=10" for 127.0.0.1 at 2018-01-01 21:02:29 -0700
+Processing by Api::BeersController#all as HTML
+  Parameters: {"page"=>"1", "per_page"=>"10"}
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Tue, 02 Jan 2018 04:02:29 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 757ms (Views: 9.2ms)
+
+
+Started GET "/api/all_beers?page=1&per_page=12" for 127.0.0.1 at 2018-01-01 21:03:01 -0700
+Processing by Api::BeersController#all as HTML
+  Parameters: {"page"=>"1", "per_page"=>"12"}
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Tue, 02 Jan 2018 04:03:01 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 929ms (Views: 6.1ms)
+
+
+Started GET "/api/all_beers" for 127.0.0.1 at 2018-01-01 21:04:30 -0700
+Processing by Api::BeersController#all as HTML
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Tue, 02 Jan 2018 04:04:30 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 957ms (Views: 75.0ms)
+
+
+Started GET "/api/all_beers.paginate" for 127.0.0.1 at 2018-01-01 21:04:35 -0700
+Processing by Api::BeersController#all as 
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Tue, 02 Jan 2018 04:04:35 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 778ms (Views: 34.3ms)
+
+
+Started GET "/rails/info/routes" for ::1 at 2018-01-01 21:04:56 -0700
+Processing by Rails::InfoController#routes as HTML
+  Rendering /Users/danielactor/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+Started GET "/api/assignment_details" for 127.0.0.1 at 2018-01-01 21:04:56 -0700
+Processing by Api::AssignmentDetailsController#show as HTML
+  Rendered collection of /Users/danielactor/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.1.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [13 times] (19.5ms)
+Completed 200 OK in 39ms (Views: 1.0ms)
+
+
+  Rendered /Users/danielactor/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.1.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.2ms)
+  Rendered /Users/danielactor/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application (61.7ms)
+Completed 200 OK in 106ms (Views: 92.7ms)
+
+
+Started GET "/api/all_beers.paginate" for 127.0.0.1 at 2018-01-01 21:04:57 -0700
+Processing by Api::BeersController#all as 
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Tue, 02 Jan 2018 04:04:57 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 919ms (Views: 41.1ms)
+
+
+Started GET "/api/all_beers/paginate" for 127.0.0.1 at 2018-01-01 21:05:13 -0700
+Processing by StaticController#index as HTML
+  Parameters: {"other"=>"api/all_beers/paginate"}
+Completed 500 Internal Server Error in 10ms
+
+
+  
+ActionView::MissingTemplate (Missing template Users/danielactor/Desktop/DPL/react-assessment/public/index.html with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby]}. Searched in:
+  * "/Users/danielactor/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.2/lib/rails/templates"
+  * "/Users/danielactor/Desktop/DPL/react-assessment"
+  * "/"
+):
+  
+app/controllers/static_controller.rb:5:in `index'
+Started GET "/api/all_beers.paginate" for 127.0.0.1 at 2018-01-01 21:05:18 -0700
+Processing by Api::BeersController#all as 
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Tue, 02 Jan 2018 04:05:18 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 875ms (Views: 26.9ms)
+
+
+Started GET "/api/all_beers?page=1&per_page=12" for 127.0.0.1 at 2018-01-01 21:05:42 -0700
+Processing by Api::BeersController#all as HTML
+  Parameters: {"page"=>"1", "per_page"=>"12"}
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Tue, 02 Jan 2018 04:05:42 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 876ms (Views: 13.1ms)
+
+
+Started GET "/api/all_beers?page=10&per_page=12" for 127.0.0.1 at 2018-01-01 21:05:44 -0700
+Processing by Api::BeersController#all as HTML
+  Parameters: {"page"=>"10", "per_page"=>"12"}
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=10
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Tue, 02 Jan 2018 04:05:44 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18830"
+connection: "Close"
+Completed 200 OK in 949ms (Views: 12.8ms)
+
+
+Started GET "/api/all_beers?page=10&per_page=12" for 127.0.0.1 at 2018-01-01 21:07:30 -0700
+Processing by Api::BeersController#all as HTML
+  Parameters: {"page"=>"10", "per_page"=>"12"}
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=10
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Tue, 02 Jan 2018 04:07:30 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18830"
+connection: "Close"
+Completed 200 OK in 980ms (Views: 9.8ms)
+
+
+Started GET "/api/all_beers?page=10&per_page=12" for 127.0.0.1 at 2018-01-01 21:07:33 -0700
+Processing by Api::BeersController#all as HTML
+  Parameters: {"page"=>"10", "per_page"=>"12"}
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=10
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Tue, 02 Jan 2018 04:07:34 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18830"
+connection: "Close"
+Completed 200 OK in 811ms (Views: 11.4ms)
+
+
+Started GET "/api/all_beers?page=undefined&per_page=12" for 127.0.0.1 at 2018-01-01 21:11:02 -0700
+Processing by Api::BeersController#all as HTML
+  Parameters: {"page"=>"undefined", "per_page"=>"12"}
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=undefined
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Tue, 02 Jan 2018 04:11:02 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 500 Internal Server Error in 877ms
+
+
+  
+RangeError (invalid page: 0):
+  
+app/controllers/application_controller.rb:10:in `send_response'
+app/controllers/api/beers_controller.rb:7:in `all'
+Started GET "/api/all_beers?page=undefined&per_page=12" for 127.0.0.1 at 2018-01-01 21:11:07 -0700
+Processing by Api::BeersController#all as HTML
+  Parameters: {"page"=>"undefined", "per_page"=>"12"}
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=undefined
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Tue, 02 Jan 2018 04:11:07 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 500 Internal Server Error in 815ms
+
+
+  
+RangeError (invalid page: 0):
+  
+app/controllers/application_controller.rb:10:in `send_response'
+app/controllers/api/beers_controller.rb:7:in `all'
+Started GET "/api/all_beers?page=undefined&per_page=12" for 127.0.0.1 at 2018-01-01 21:11:12 -0700
+Processing by Api::BeersController#all as HTML
+  Parameters: {"page"=>"undefined", "per_page"=>"12"}
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=undefined
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Tue, 02 Jan 2018 04:11:12 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 500 Internal Server Error in 753ms
+
+
+  
+RangeError (invalid page: 0):
+  
+app/controllers/application_controller.rb:10:in `send_response'
+app/controllers/api/beers_controller.rb:7:in `all'
+Started GET "/api/all_beers?page=undefined&per_page=12" for 127.0.0.1 at 2018-01-01 21:11:16 -0700
+Processing by Api::BeersController#all as HTML
+  Parameters: {"page"=>"undefined", "per_page"=>"12"}
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=undefined
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Tue, 02 Jan 2018 04:11:16 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 500 Internal Server Error in 736ms
+
+
+  
+RangeError (invalid page: 0):
+  
+app/controllers/application_controller.rb:10:in `send_response'
+app/controllers/api/beers_controller.rb:7:in `all'
+Started GET "/api/all_beers?page=1&per_page=12" for 127.0.0.1 at 2018-01-01 21:12:07 -0700
+Processing by Api::BeersController#all as HTML
+  Parameters: {"page"=>"1", "per_page"=>"12"}
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Tue, 02 Jan 2018 04:12:07 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 924ms (Views: 9.2ms)
+
+
+Started GET "/rails/info/routes" for ::1 at 2018-01-01 21:19:32 -0700
+Started GET "/api/assignment_details" for 127.0.0.1 at 2018-01-01 21:19:32 -0700
+Processing by Rails::InfoController#routes as HTML
+Processing by Api::AssignmentDetailsController#show as HTML
+Completed 200 OK in 29ms (Views: 2.2ms)
+
+
+  Rendering /Users/danielactor/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /Users/danielactor/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.1.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [13 times] (25.7ms)
+  Rendered /Users/danielactor/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.1.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (7.0ms)
+  Rendered /Users/danielactor/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.1.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application (62.7ms)
+Completed 200 OK in 116ms (Views: 94.2ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2018-01-01 21:19:34 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Tue, 02 Jan 2018 04:19:34 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12161"
+connection: "Close"
+Completed 200 OK in 596ms (Views: 16.8ms)
+
+
+Started GET "/api/all_beers?page=1&per_page=12" for 127.0.0.1 at 2018-01-01 21:22:53 -0700
+Processing by Api::BeersController#all as HTML
+  Parameters: {"page"=>"1", "per_page"=>"12"}
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Tue, 02 Jan 2018 04:22:53 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 786ms (Views: 13.0ms)
+
+
+Started GET "/api/all_breweries" for 127.0.0.1 at 2018-01-01 21:22:54 -0700
+Processing by Api::BreweriesController#all as HTML
+get http://api.brewerydb.com/v2/breweries?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Tue, 02 Jan 2018 04:22:54 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "12161"
+connection: "Close"
+Completed 200 OK in 495ms (Views: 17.6ms)
+
+
+Started GET "/api/all_beers?page=1&per_page=12" for 127.0.0.1 at 2018-01-01 21:22:55 -0700
+Processing by Api::BeersController#all as HTML
+  Parameters: {"page"=>"1", "per_page"=>"12"}
+get http://api.brewerydb.com/v2/beers?key=4a67a4e833fd9ccbd77588fbaa724c33&p=1
+User-Agent: "BreweryDB Ruby Gem 0.2.4"
+200
+content-type: "application/json"
+date: "Tue, 02 Jan 2018 04:22:55 GMT"
+server: "Apache/2.4.23 (Amazon) OpenSSL/1.0.1k-fips PHP/5.5.38"
+vary: "Accept-Encoding,User-Agent"
+x-powered-by: "PHP/5.5.38"
+x-ratelimit-limit: "Unlimited"
+x-ratelimit-remaining: "Unlimited"
+content-length: "18894"
+connection: "Close"
+Completed 200 OK in 755ms (Views: 17.4ms)
+
+

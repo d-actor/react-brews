@@ -9,7 +9,7 @@ import {
 } from 'semantic-ui-react';
 import { connect } from 'react-redux';
 import { fetchBeers } from '../actions/beers';
-import noImage from '../images/noImage.png';
+import beerStock from '../images/beer.jpg';
 
 
 class Beers extends React.Component {
@@ -47,7 +47,7 @@ class Beers extends React.Component {
             <Grid>
               <Grid.Row>
                 <Grid.Column width={16}>
-                  <Image src={ beer.labels? beer.labels.medium : noImage } />
+                  <Image src={ beer.labels? beer.labels.medium : beerStock } />
                 </Grid.Column>
               </Grid.Row>
             </Grid>
