@@ -10,9 +10,11 @@ import {
 import { connect } from 'react-redux';
 import { fetchBeers } from '../actions/beers';
 import beerStock from '../images/beer.jpg';
-
+import InfiniteScroll from 'react-infinite-scroller';
+import axios from 'axios';
 
 class Beers extends React.Component {
+  state = { page: 1, hasMore: true };
 
   componentDidMount() {
     this.props.dispatch(fetchBeers());
@@ -63,14 +65,37 @@ class Beers extends React.Component {
     })
   }
 
+  loadFunc = () => {
+    axios.get(`/api/all_beers?page=${this.state.page + 1 }&per_page=12`)
+      .then( res => {
+        this.props.dispatch({ type: 'MORE_BEER', beers: res.data.beers })
+        this.setState({ page: this.state.page + 1, hasMore: res.data.has_more })
+      })
+      .catch( err => {
+        console.log(err)
+    });
+  }
+
   render() {
+    const { page, hasMore } = this.state;
+
     return(
       <Container>
         <Segment basic>
-          <Header as='h1' inverted>Beer. It's Good For You.</Header>
-          <Card.Group stackable itemsPerRow={3}>
-            { this.displayBeers() }
-          </Card.Group>
+          <Header textAlign='center' as='h1' inverted>Beer. It's Good For You.</Header>
+          <Segment basic style={{ overflow: 'auto' }}>
+            <InfiniteScroll
+              pageStart={page}
+              loadMore={this.loadFunc}
+              hasMore={ this.state.hasMore}
+              loader={<div className="loader">Loading ...</div>}
+              useWindow={false}
+            >
+              <Card.Group stackable itemsPerRow={3}>
+                { this.displayBeers() }
+              </Card.Group>
+            </InfiniteScroll>
+          </Segment>
         </Segment>
       </Container>
     );

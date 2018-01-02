@@ -6,7 +6,7 @@ class ApplicationController < ActionController::API
     if api_response.is_a?(BreweryDB::PaginatedCollection) || api_response.is_a?(BreweryDB::Collection)
       if(api_response.count > 0)
         page = params[:page] ? params[:page].to_i : 1
-        per_page = params[:per_page] ? params[:per_page].to_i : BreweryDB::PaginatedCollection::BATCH_SIZE
+        per_page = WillPaginate.per_page = 12
         paged_response = WillPaginate::Collection.create(page, per_page, api_response.count) do |pager|
           pager.replace api_response.take(per_page)
         end
