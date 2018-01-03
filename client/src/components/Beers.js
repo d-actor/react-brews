@@ -57,7 +57,7 @@ class Beers extends React.Component {
             <Card.Description style={styles.description}>
               {beer.description}
             </Card.Description>
-            <Link to ={`/api/beer/${beer.name}`}>
+            <Link to ={`/beer/${beer.id}`}>
               View Details
             </Link>
           </Card.Content>

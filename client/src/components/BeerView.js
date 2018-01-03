@@ -8,11 +8,50 @@ import {
   Table,
 } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
+import beerStock from '../images/beer.jpg';
 
 const BeerView = ({ beer = {} }) => (
   <Container>
     <Link to ='/beers'>All Beers</Link>
+    <Header inverted as='h1' textAlign='center'>{beer.name}</Header>
+    <Image src={ beer.labels? beer.labels.large : beerStock } />
+    <Table definition>
+      <Table.Header>
+        <Table.Row>
+          <Table.HeaderCell />
+          <Table.HeaderCell />
+        </Table.Row>
+      </Table.Header>
+
+      <Table.Body>
+        <Table.Row>
+          <Table.Cell>Description</Table.Cell>
+          <Table.Cell>{beer.description}</Table.Cell>
+        </Table.Row>
+        <Table.Row>
+          <Table.Cell>Style</Table.Cell>
+          <Table.Cell>{ beer.style.name }</Table.Cell>
+        </Table.Row>
+        <Table.Row>
+          <Table.Cell>ABV</Table.Cell>
+          <Table.Cell>{beer.abv}</Table.Cell>
+        </Table.Row>
+        <Table.Row>
+          <Table.Cell>IBU</Table.Cell>
+          <Table.Cell>{beer.ibu}</Table.Cell>
+        </Table.Row>
+        <Table.Row>
+          <Table.Cell>Organic?</Table.Cell>
+          <Table.Cell>{ beer.is_organic }</Table.Cell>
+        </Table.Row>
+      </Table.Body>
+
+    </Table>
   </Container>
 )
 
-export default connect()(BeerView);
+const mapStateToProps = (state, props) => {
+  return { beer: state.beers.find( b => b.id === props.match.params.id ) }
+}
+
+export default connect(mapStateToProps)(BeerView);

@@ -19,7 +19,7 @@ class App extends Component {
           <Route exact path='/' component={Home} />
           <Route exact path='/beers' component={Beers} />
           <Route exact path='/breweries' component={Breweries} />
-          <Route exact path='/beer/:name' component={BeerView} />
+          <Route exact path='/beer/:id' component={BeerView} />
           <Route component={NoMatch} />
         </Switch>
       </Segment>
