@@ -11,6 +11,7 @@ import { connect } from 'react-redux';
 import { fetchBeers } from '../actions/beers';
 import beerStock from '../images/beer.jpg';
 import InfiniteScroll from 'react-infinite-scroller';
+import { Link } from 'react-router-dom';
 import axios from 'axios';
 
 class Beers extends React.Component {
@@ -56,6 +57,9 @@ class Beers extends React.Component {
             <Card.Description style={styles.description}>
               {beer.description}
             </Card.Description>
+            <Link to ={`/api/beer/${beer.name}`}>
+              View Details
+            </Link>
           </Card.Content>
           <Card.Content extra>
             { this.beerStats(beer)}
@@ -66,15 +70,15 @@ class Beers extends React.Component {
   }
 
   loadFunc = () => {
-    axios.get(`/api/all_beers?page=${this.state.page + 1 }&per_page=12`)
+    axios.get(`/api/all_beers?page=${this.state.page + 1 }`)
       .then( res => {
-        this.props.dispatch({ type: 'MORE_BEER', beers: res.data.beers })
-        this.setState({ page: this.state.page + 1, hasMore: res.data.has_more })
+        this.props.dispatch({ type: 'MORE_BEERS', beers: res.data.entries })
+        this.setState({ page: this.state.page + 1, hasMore: res.data.page < res.data.total_pages? this.state.hasMore = true : this.state.hasMore = false } )
       })
       .catch( err => {
         console.log(err)
     });
-  }
+  } 
 
   render() {
     const { page, hasMore } = this.state;
@@ -83,11 +87,11 @@ class Beers extends React.Component {
       <Container>
         <Segment basic>
           <Header textAlign='center' as='h1' inverted>Beer. It's Good For You.</Header>
-          <Segment basic style={{ overflow: 'auto' }}>
+          <Segment basic>
             <InfiniteScroll
-              pageStart={page}
+              pageStart={page} 
               loadMore={this.loadFunc}
-              hasMore={ this.state.hasMore}
+              hasMore={hasMore}
               loader={<div className="loader">Loading ...</div>}
               useWindow={false}
             >
