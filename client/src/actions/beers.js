@@ -13,7 +13,7 @@ export const fetchBeers = () => {
         console.log(res.data)
       })
       .catch( err => {
-        dispatch(setFlash('Error fetching beers.', 'red'))
+        dispatch(setFlash('Error fetching beers.', 'red', 'inverted'))
         console.log(err)
     });
   }

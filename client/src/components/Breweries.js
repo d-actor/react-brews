@@ -9,15 +9,18 @@ import {
 } from 'semantic-ui-react';
 import { connect } from 'react-redux';
 import { fetchBreweries } from '../actions/breweries';
+import InfiniteScroll from 'react-infinite-scroller';
+import { Link } from 'react-router-dom';
 import noImage from '../images/noImage.png';
+import axios from 'axios';
 
 class Breweries extends React.Component {
+  state = { page: 1, hasMore: true };
   
   componentDidMount() {
     this.props.dispatch(fetchBreweries());
   }
 
-  // add n/a if/else on this and beers stats
   breweryStats = (brewery) => {
     return(
       <Grid centered>
@@ -57,6 +60,9 @@ class Breweries extends React.Component {
             <Card.Description style={styles.description}>
               {brewery.description}
             </Card.Description>
+            <Link to ={`/brewery/${brewery.id}`}>
+              View Details
+            </Link>
           </Card.Content>
           <Card.Content extra>
             { this.breweryStats(brewery)}
@@ -66,14 +72,35 @@ class Breweries extends React.Component {
     })
   }
 
+  loadFunc = () => {
+    axios.get(`/api/all_breweries?page=${this.state.page + 1 }`)
+      .then( res => {
+        this.props.dispatch({ type: 'MORE_BREWERS', breweries: res.data.entries })
+        this.setState({ page: this.state.page + 1, hasMore: res.data.has_more })
+      })
+      .catch( err => {
+        console.log(err)
+    });
+  }
+
   render() {
+    const { page, hasMore } = this.state;
+
     return(
       <Container>
         <Segment basic>
-          <Header as='h1' inverted>Breweries.</Header>
-          <Card.Group stackable itemsPerRow={3}>
-            { this.displayBreweries() }
-          </Card.Group>
+          <Header textAlign='center' as='h1' inverted>Breweries.</Header>
+          <InfiniteScroll
+              pageStart={page} 
+              loadMore={this.loadFunc}
+              hasMore={hasMore}
+              loader={<div className="loader">Loading ...</div>}
+              useWindow={false}
+          >
+            <Card.Group stackable itemsPerRow={3}>
+              { this.displayBreweries() }
+            </Card.Group>
+          </InfiniteScroll>
         </Segment>
       </Container>
     );

@@ -7,13 +7,13 @@ const setBreweries = (breweries) => {
 
 export const fetchBreweries = () => {
   return dispatch => {
-    axios.get(`api/all_breweries`)
+    axios.get(`api/all_breweries?page=1`)
       .then( res => {
         dispatch(setBreweries(res.data.entries))
         console.log(res.data)
       })
       .catch( err => {
-        dispatch(setFlash('Error Fethcing Breweries.'))
+        dispatch(setFlash('Error Fethcing Breweries.', 'red', 'inverted'))
         console.log(err)
     });
   }

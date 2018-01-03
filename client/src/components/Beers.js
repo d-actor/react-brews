@@ -73,7 +73,7 @@ class Beers extends React.Component {
     axios.get(`/api/all_beers?page=${this.state.page + 1 }`)
       .then( res => {
         this.props.dispatch({ type: 'MORE_BEERS', beers: res.data.entries })
-        this.setState({ page: this.state.page + 1, hasMore: res.data.page < res.data.total_pages? this.state.hasMore = true : this.state.hasMore = false } )
+        this.setState({ page: this.state.page + 1, hasMore: res.data.has_more })
       })
       .catch( err => {
         console.log(err)
