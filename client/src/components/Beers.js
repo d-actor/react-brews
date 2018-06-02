@@ -26,7 +26,7 @@ class Beers extends React.Component {
       <Grid centered>
         <Grid.Row>
           <Grid.Column width={8} style={{ textAlign: 'center'}}>
-            ABV: { beer.abv? beer.abv : 'N/A'} 
+            ABV: { beer.abv? beer.abv : 'N/A'}
             %
           </Grid.Column>
           <Grid.Column width={8} style={{ textAlign: 'center'}}>
@@ -63,7 +63,7 @@ class Beers extends React.Component {
           </Card.Content>
           <Card.Content extra>
             { this.beerStats(beer)}
-          </Card.Content>  
+          </Card.Content>
         </Card>
       )
     })
@@ -78,7 +78,7 @@ class Beers extends React.Component {
       .catch( err => {
         console.log(err)
     });
-  } 
+  }
 
   render() {
     const { page, hasMore } = this.state;
@@ -89,7 +89,7 @@ class Beers extends React.Component {
           <Header textAlign='center' as='h1' inverted>Beer. It's Good For You.</Header>
           <Segment basic>
             <InfiniteScroll
-              pageStart={page} 
+              pageStart={page}
               loadMore={this.loadFunc}
               hasMore={hasMore}
               loader={<div className="loader">Loading ...</div>}
