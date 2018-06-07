@@ -1,8 +1,8 @@
-import React from 'react';
 import {
   Header,
   Segment,
   Container,
+  import React from 'react';
   Card,
   Grid,
   Image,
@@ -71,12 +71,12 @@ class Beers extends React.Component {
 
   loadFunc = () => {
     axios.get(`/api/all_beers?page=${this.state.page + 1 }`)
-      .then( res => {
-        this.props.dispatch({ type: 'MORE_BEERS', beers: res.data.entries })
-        this.setState({ page: this.state.page + 1, hasMore: res.data.has_more })
-      })
-      .catch( err => {
-        console.log(err)
+    .then( res => {
+      this.props.dispatch({ type: 'MORE_BEERS', beers: res.data.entries })
+      this.setState({ page: this.state.page + 1, hasMore: res.data.has_more })
+    })
+    .catch( err => {
+      console.log(err)
     });
   }
 
